@@ -10,7 +10,10 @@ https://console.firebase.google.com/u/0/
 ### Screenshot from MIERS:
 
 Login Page
-![image](https://user-images.githubusercontent.com/62060147/212706715-c3613a63-651e-47b8-86a7-bb840406147a.png width="100" height="100") 
+![image](https://user-images.githubusercontent.com/62060147/212706715-c3613a63-651e-47b8-86a7-bb840406147a.png) {
+  width="100px" 
+  height="100px"
+}
 
 Real Time Tracking of Ambulance
 ![image](https://user-images.githubusercontent.com/62060147/212706969-7c1e4c65-22af-4716-9570-43914537bce0.png)
