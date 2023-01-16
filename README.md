@@ -1,5 +1,5 @@
 # MIERS-Realtime-Location-Tracking
-Mobile Immediate Emergency Response System (MIERS) utilizes Google Maps SDK for Android and Google Firebase Realtime Database to be able to track Ambulances real time and allows users to request an immediate emergency response.
+Mobile Immediate Emergency Response System (MIERS) utilizes Google Maps SDK for Android and Google Firebase Realtime Database to track Ambulances in real-time. It allows users to request an immediate emergency response.
 
 ### Generate your own API from here:
 https://console.cloud.google.com/
