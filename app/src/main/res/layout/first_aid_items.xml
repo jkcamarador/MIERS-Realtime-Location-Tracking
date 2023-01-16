@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="10dp"
+    android:backgroundTint="@color/white"
+    android:scrollbars="vertical"
+    app:cardCornerRadius="20dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewFirstAidImage"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/textViewFirstAidType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/miers_gray"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="First Aid Type"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewFirstAidImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageViewFirstAidImage"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

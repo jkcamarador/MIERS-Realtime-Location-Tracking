@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MIERS</string>
+    <string name="onetap_name">Makati Health Centers</string>
+    <string name="emergency_name">Emergency Hotlines</string>
+    <string name="firstaid_name">First Aid Procedures</string>
+    <string name="dev_reply">We would like to extend our deepest gratitude to all of our users who have taken the time to provide feedback on our application. Your comments, suggestions, and critiques are invaluable to us as we strive to improve and enhance the user experience. Your input helps us identify areas for improvement and allows us to make necessary changes to ensure that our application meets your needs and exceeds your expectations. Thank you for your continued support and for making our application a better one.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meirs_pink"
+    tools:context=".FeedBackActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:background="@color/miers_gray"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="FEEDBACK"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/miers_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/miers_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        app:srcCompat="@drawable/ic_baseline_send_24" />
+
+    <TextView
+        android:id="@+id/textViewTitleFeedback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="start"
+        android:text="Send message/feedback to us"
+        android:textColor="@color/miers_gray"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLineFeedback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|top"
+        android:hint="Enter feeback..."
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitleFeedback" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewReply"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="178dp"
+        android:backgroundTint="@color/white"
+        android:visibility="visible"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitleFeedback"
+        app:layout_constraintVertical_bias="0.911">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewDevsReply"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="start"
+                    android:text="@string/dev_reply"
+                    android:textColor="@color/miers_gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
